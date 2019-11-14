@@ -50,12 +50,12 @@ class SourceGUI(Base):
         self.done_callback = done_callback
 
         self.plot_widget = pn.widgets.Toggle(
-            name='📊',
+            name='\u2682',
             value=False,
             disabled=True,
             width=50)
         self.pars_widget = pn.widgets.Toggle(
-            name='⚙',
+            name="\u2699",
             value=False,
             disabled=True,
             width=50)
